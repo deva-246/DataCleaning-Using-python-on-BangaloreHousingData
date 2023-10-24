@@ -9,3 +9,16 @@
 3. A series with a missing value at the fifth index can't just be one value shorter. It throws off everything. Instead, we need to plug in a special value that represents a missing value so that when we perform operations on the series, nothing goes awry.
    
 4. For example, if we ask for the mean value of a series of values that contains some missing values, we would not want to sum all the values and then divide them by the length of the series. The length would include the missing values and throw off the mean value.
+
+## Handling missing values using python 
+    
+    NaN means Not a Number in pandas. It is a special floating-point value that is different from NoneType in Python. NaN values can be annoying to work with, especially when you want to filter them out for plots or analysis. To make our lives easier, let’s replace these NaN values with some required value.
+
+**Python holds various methods to handle missing values** :
+
+1. fillna()
+       This method is used to fill the reuquired data in the missing value cells.
+   Syntax of fillna(),
+   **fillna(value = requiredvalue)**
+
+
