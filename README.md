@@ -17,14 +17,14 @@ NaN means Not a Number in pandas library. It is a special floating-point value t
 **Python holds various methods to handle missing values** :
 **Pandas library functions**
 
-1. fillna() 
-       This method is used to fill the reuquired data in the missing value cells. there are various paramaters that comes under this method.
+1. fillna( )
+   This method is used to fill the reuquired data in the missing value cells. there are various paramaters that comes under this method.
 
-   1.1 fillna() with **value** parameter,
+   1.1 fillna( ) with **value** parameter,
    Syntax :-
    **fillna(value = requiredvalue)**
    
-   1.2 fillna() with **method** parameter,
+   1.2 fillna( ) with **method** parameter,
    This helps to fill the missing values using previous row value
    Syntax:-
    **fillna(method = 'pad')**
