@@ -86,7 +86,62 @@ NaN means Not a Number in pandas library. It is a special floating-point value t
    
 
 ## 2. Dropping Null values
+
+Dropping null values can be achieved by using **dropna( )** method.
+
+Syntax:-
+
+**dataframe_name.dropna( ) **  
+
+    2.1 dropna( ) with **how = 'any'** parameter
+
+'any' : If any NA values are present, drop that row or column.
+
+Syntax:-
+
+**dropna(how = 'any')**
+
+
+    2.2 dropna( ) with **how = 'all'** parameter
+
+'all' : If all values are NA, drop that row or column.
+
+
+    2.3 dropna( ) with **axis = 0** parameter -  Determine if rows which contain missing values are
+    removed.
+    
+axis : {0 or 'index'}, default 0 or 'index' : Drop rows which contain missing values.
+
+Syntax:- 
+
+**dropna(axis = 0)**
+
+
+    2.4 dropna( ) with **axis = 1** parameter -  Determine if columns which contains missing values are
+    removed.
+    
+axis : {1 or 'columns'}, default 0 or 'index' : Drop columns which contain missing values.
+
+Syntax:- 
+
+**dropna(axis = 1)**
+
+
+## 3. Replace( )
+
+
+
+
+    
    
+
+
+    
+
+
+
+
+
 
    
 
