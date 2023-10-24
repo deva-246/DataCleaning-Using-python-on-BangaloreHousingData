@@ -129,6 +129,23 @@ Syntax:-
 
 ## 3. Replace( )
 
+To use this method we must import **numpy** library in order to identify the **nan** and to perform replace action.
+
+    3.1 replace( )  with  to_replace = 'nan' parameter
+
+This replaces the **nan** value into desired values
+
+Syntax :-
+
+**replace(to_replace = np.nan, value = any desired value)**
+
+
+    3.2 replace( ) with to_replace = 'any particular value' parameter
+
+This replaces the particular value with desired value
+
+
+    
 
 
 
