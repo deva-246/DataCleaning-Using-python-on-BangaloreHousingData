@@ -12,13 +12,21 @@
 
 ## Handling missing values using python 
     
-    NaN means Not a Number in pandas. It is a special floating-point value that is different from NoneType in Python. NaN values can be annoying to work with, especially when you want to filter them out for plots or analysis. To make our lives easier, let’s replace these NaN values with some required value.
+NaN means Not a Number in pandas library. It is a special floating-point value that is different from NoneType in Python. NaN values can be annoying to work with, especially when you want to filter them out for plots or analysis. To make our lives easier, let’s replace these NaN values with some required value.
 
 **Python holds various methods to handle missing values** :
+**Pandas library functions**
 
-1. fillna()
-       This method is used to fill the reuquired data in the missing value cells.
-   Syntax of fillna(),
+1. fillna() 
+       This method is used to fill the reuquired data in the missing value cells. there are various paramaters that comes under this method.
+
+   1.1 fillna() with **value** parameter,
+   Syntax :-
    **fillna(value = requiredvalue)**
+   
+   1.2 fillna() with **method** parameter,
+   This helps to fill the missing values using previous row value
+   Syntax:-
+   **fillna(method = 'pad')**
 
 
