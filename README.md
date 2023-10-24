@@ -144,6 +144,22 @@ Syntax :-
 
 This replaces the particular value with desired value
 
+Syntax:-
+
+**replace(to_replace = particular value, value = desired value)**
+
+
+## 4. Interpolate( )
+
+Pandas dataframe.interpolate() function is basically used to fill NA values in the dataframe or series. But, this is a very powerful function to fill the missing values. It uses various interpolation technique to fill the missing values rather than hard-coding the value.
+
+Syntax:-
+
+DataFrame.interpolate(method=’linear’, axis=0, limit=None, inplace=False, limit_direction=’forward’, limit_area=None, downcast=None, **kwargs)
+
+Parameters :-
+
+method : {‘linear’, ‘time’, ‘index’, ‘values’, ‘nearest’, ‘zero’, ‘slinear’, ‘quadratic’, ‘cubic’, ‘barycentric’, ‘krogh’, ‘polynomial’, ‘spline’, ‘piecewise_polynomial’, ‘from_derivatives’, ‘pchip’, ‘akima’}
 
     
 
