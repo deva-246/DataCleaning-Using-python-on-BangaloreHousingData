@@ -21,12 +21,16 @@ NaN means Not a Number in pandas library. It is a special floating-point value t
    This method is used to fill the reuquired data in the missing value cells. there are various paramaters that comes under this method.
 
    1.1 fillna( ) with **value** parameter,
+
    Syntax :-
+
    **fillna(value = requiredvalue)**
    
    1.2 fillna( ) with **method** parameter,
    This helps to fill the missing values using previous row value
+
    Syntax:-
+
    **fillna(method = 'pad')**
 
 
