@@ -17,8 +17,9 @@ NaN means Not a Number in pandas library. It is a special floating-point value t
 **Python holds various methods to handle missing values** :
 **Pandas library functions**
 
-1. fillna( )
-   This method is used to fill the reuquired data in the missing value cells. there are various paramaters that comes under this method.
+## 1. fillna( )
+
+   This method is used to fill the required data in the missing value cells. there are various paramaters that comes under this method.
 
    1.1 fillna( ) with **value** parameter,
 
@@ -26,11 +27,63 @@ NaN means Not a Number in pandas library. It is a special floating-point value t
 
    **fillna(value = requiredvalue)**
    
-   1.2 fillna( ) with **method** parameter,
-   This helps to fill the missing values using previous row value
+   1.2 fillna( ) with **method = pad** parameter,
+
+   This helps to fill the missing values using previous **row** value
 
    Syntax:-
 
    **fillna(method = 'pad')**
+
+   In case of previous **column** value requirement,
+
+   Syntax:-
+
+   **fillna(method='pan',axis = 1)**
+
+
+   1.3 fillna( ) with **method = bfill**
+
+   This is also known as backward fill where the succeding row value is filled in the area of missing values
+
+   Syntax:-
+
+   **fillna(method = 'bfill')**
+
+   In case of suceeding **column** value requirement,
+
+   Syntax:-
+
+   **fillna(method='bfill',axis = 1)**
+   
+
+   1.4 fillna( ) with filling desired values seperately for required columns
+
+   This is achieved by using the **dictionary** data type which holds key and value pairs. The key is considered to be the name of the column present in the dataset and value will be 
+   considered as the desired value that must be filled in particular keys alone.
+
+   Syntax:-
+
+   **fillna({key1 :value1 , Key2 : value2})**
+
+   1.5 fillna( ) with **central tendency measures** - Mean . Median and Mode
+
+   Syntax:-
+
+   **fillna(value = df['columnname'].mean())**
+   **fillna(value = df['columnname'].median())**
+   **fillna(value = df['columnname'].mode())**
+   **fillna(value = df['columnname'].min())**
+   **fillna(value = df['columnname'].max())**
+
+## 2. Dropping Null values
+   
+
+   
+
+
+
+
+   
 
 
