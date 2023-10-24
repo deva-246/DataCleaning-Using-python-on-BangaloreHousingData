@@ -75,10 +75,15 @@ NaN means Not a Number in pandas library. It is a special floating-point value t
    Syntax:-
 
    **fillna(value = df['columnname'].mean())**
+   
    **fillna(value = df['columnname'].median())**
+   
    **fillna(value = df['columnname'].mode())**
+   
    **fillna(value = df['columnname'].min())**
+   
    **fillna(value = df['columnname'].max())**
+   
 
 ## 2. Dropping Null values
    
