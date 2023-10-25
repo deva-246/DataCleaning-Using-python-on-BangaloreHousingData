@@ -8,7 +8,7 @@
 
 2. Analyze the data and it's fields
 
- ![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/9a8860b6-347b-4a5f-9f93-5b99ce509a73)
+![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/9a8860b6-347b-4a5f-9f93-5b99ce509a73)
 
 3. Find if the presence of missing values / Null values in the dataset
 
@@ -24,7 +24,7 @@
 
    5.1 **using dropna( ) method**
 
-![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/282603dd-e46e-4fc5-a3f3-64d5b2233860)
+   ![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/282603dd-e46e-4fc5-a3f3-64d5b2233860)
 
 
 
