@@ -4,7 +4,7 @@
 
 1. Import the data and convert into dataframe using pandas library
 
-   ![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/9e690fac-02fd-4803-bea4-e3898a4a24d5)
+          ![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/9e690fac-02fd-4803-bea4-e3898a4a24d5)
 
 2. Analyze the data and it's fields
 
