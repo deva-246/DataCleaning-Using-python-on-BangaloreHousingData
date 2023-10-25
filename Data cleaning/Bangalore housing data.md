@@ -23,9 +23,19 @@
 
 5. Fill the missing values using required method and parameters as per requirements
 
-   5.1 **using dropna( ) method**
+5.1 **using dropna( ) method**
 
-   ![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/282603dd-e46e-4fc5-a3f3-64d5b2233860)
+![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/282603dd-e46e-4fc5-a3f3-64d5b2233860)
+
+5.2 **using dropna( ) method with previous row value**
+
+![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/cd228ffe-eac4-4e8a-ab81-fb1b77fd3305)
+
+5.3 **using dropna( ) with succeding row value**
+
+![image](https://github.com/deva-246/DataCleaning-Using-python-on-BangaloreHousingData/assets/75877347/5ce6748c-525c-4002-a28f-d889f15e6efd)
+
+
 
 
 
